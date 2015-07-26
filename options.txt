@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:0.0
 saturation:0.0
-renderDistance:2
+renderDistance:5
 guiScale:2
 particles:0
 bobView:true
@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:1
 clouds:false
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -86,11 +86,16 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.openCompendium:25
+key_simplyjetpacks.keybind.toggle.primary:33
+key_simplyjetpacks.keybind.toggle.secondary:0
+key_simplyjetpacks.keybind.mode.primary:46
+key_simplyjetpacks.keybind.mode.secondary:0
+key_simplyjetpacks.keybind.openPackGUI:22
 key_Baubles Inventory:18
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
 key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:0
+key_waila.keybind.wailadisplay:83
 key_waila.keybind.liquid:0
 key_waila.keybind.recipe:0
 key_waila.keybind.usage:0
@@ -108,6 +113,11 @@ key_Change Mode:76
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_key.control:0
+key_key.minimap.voxelmapmenu:55
+key_key.minimap.waypointhotkey:181
+key_key.minimap.zoom:78
+key_key.minimap.togglefullscreen:74
+key_key.minimap.togglemobs:0
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
