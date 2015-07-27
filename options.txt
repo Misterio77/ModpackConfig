@@ -12,11 +12,11 @@ advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
+fancyGraphics:false
 ao:1
 clouds:false
 resourcePacks:[]
-lastServer:
+lastServer:mc.fiercelands.com
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -62,7 +62,7 @@ key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.drop:16
-key_key.inventory:0
+key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98
@@ -93,7 +93,7 @@ key_simplyjetpacks.keybind.toggle.secondary:0
 key_simplyjetpacks.keybind.mode.primary:46
 key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:22
-key_Baubles Inventory:18
+key_Baubles Inventory:0
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
 key_key.betterHud.open:83
