@@ -11,8 +11,8 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:0
-fancyGraphics:false
+difficulty:2
+fancyGraphics:true
 ao:1
 clouds:false
 resourcePacks:[]
@@ -85,6 +85,8 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_Tool Increase:201
+key_Tool Decrease:209
 key_key.openCompendium:25
 key_simplyjetpacks.keybind.toggle.primary:33
 key_simplyjetpacks.keybind.toggle.secondary:0
@@ -94,8 +96,9 @@ key_simplyjetpacks.keybind.openPackGUI:22
 key_Baubles Inventory:18
 key_keys.adventureBackpack.openBackpackInventory:48
 key_keys.adventureBackpack.switchHoseTank:49
+key_key.betterHud.open:83
 key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:83
+key_waila.keybind.wailadisplay:211
 key_waila.keybind.liquid:0
 key_waila.keybind.recipe:0
 key_waila.keybind.usage:0
