@@ -1,9 +1,9 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:1.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
-renderDistance:5
+renderDistance:8
 guiScale:2
 particles:0
 bobView:true
@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:false
 ao:1
-clouds:false
+clouds:true
 resourcePacks:[]
 lastServer:mc.fiercelands.com
 lang:en_US
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
