@@ -14,7 +14,7 @@
          "posX":-50,
          "posY":-40,
          "width":102,
-         "height":105
+         "height":130
       }
    },
    "buttons":{
@@ -23,7 +23,7 @@
          "tooltip":"Opções",
          "alignment":"center",
          "texture":"zoeira:textures/gui/options.png",
-         "posX":-9,
+         "posX":-45,
          "posY":15,
          "width":20,
          "height":20,
@@ -32,12 +32,25 @@
             "gui":"options"
          }
       },
+      "language":{
+         "text":"",
+         "tooltip":"Idioma",
+         "alignment":"center",
+         "posX":-21,
+         "posY":15,
+         "width":20,
+         "height":20,
+         "action":{
+            "type":"openGui",
+            "gui":"languages"
+         }
+      },
       "refresh":{
          "text":"",
          "tooltip":"Atualizar Menu",
          "alignment":"center",
          "texture":"zoeira:textures/gui/refresh.png",
-         "posX":-33,
+         "posX":3,
          "posY":15,
          "width":20,
          "height":20,
@@ -50,7 +63,7 @@
          "tooltip":"Sair do Jogo",
          "alignment":"center",
          "texture":"zoeira:textures/gui/quit.png",
-         "posX":15,
+         "posX":27,
          "posY":15,
          "width":20,
          "height":20,
