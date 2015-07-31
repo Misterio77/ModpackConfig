@@ -1,0 +1,14 @@
+######################################################
+# Render Player API Enhancer canonical class name pattern configuration file
+######################################################
+# * one line per canonical class name pattern
+# * for comments prepend '#'
+# * to disable default canonical class name pattern prepend '-'
+# * delete this file to get newest defaults on startup
+######################################################
+
+# uncomment the line below to disable this default canonical class name pattern
+#-(?i).*armou?r[^\.]*
+
+
+# add your own canonical class name patterns below

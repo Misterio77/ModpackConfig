@@ -1,0 +1,23 @@
+######################################################
+# Render Player API Enhancer canonical class name configuration file
+######################################################
+# * one line per canonical class name
+# * for comments prepend '#'
+# * to disable default canonical class name prepend '-'
+# * delete this file to get newest defaults on startup
+######################################################
+
+# uncomment the line below to disable this default canonical class name
+#-thaumic.tinkerer.client.model.kami.ModelWings
+
+# uncomment the line below to disable this default canonical class name
+#-thaumcraft.client.renderers.models.gear.ModelRobe
+
+# uncomment the line below to disable this default canonical class name
+#-thaumcraft.client.renderers.models.gear.ModelHoverHarness
+
+# uncomment the line below to disable this default canonical class name
+#-riskyken.armourersWorkshop.client.model.equipmet.AbstractModelCustomEquipment
+
+
+# add your own canonical class names below
