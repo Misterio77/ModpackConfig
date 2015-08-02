@@ -1,0 +1,50 @@
+{
+  "images":{
+    "janela":{
+      "image":"zoeira:textures/gui/janela.png",
+      "alignment":"left_center",
+      "posX":50,
+      "posY":-9999,
+      "width":102,
+      "height":9999999
+    },
+    "titulo":{
+      "image":"zoeira:textures/gui/Logo.png",
+      "alignment":"top_left",
+      "posX":58 ,
+      "posY":-5,
+      "width":85,
+      "height":85
+    }
+  },
+  "buttons":{
+    "voltar":{
+      "text":"",
+      "alignment":"left_center",
+      "tooltip":"Voltar",
+      "texture":"zoeira:textures/gui/voltar2.png",
+      "posX":81,
+      "posY":100,
+      "width":40,
+      "height":20,
+      "action":{
+        "type":"openGui",
+        "gui":"custom.mainmenu"
+      }
+    }
+  },
+  "texts":{
+    "Créditos":{
+      "text":"Misterio77x\nCriador\nDono do server\n\nGamitor7 & Tzaquiel\nBeta Testing\nSugestões\n\nNeodark7\nMeu mestre ^-^\nÓtimos conselhos\n\nE por fim...  Você!\nMuito Obrigado\npor jogar! =D",
+      "posX":55,
+      "posY":-50,
+      "color":-1,
+      "alignment" : "left_center"
+    }
+  },
+  "other":{
+    "background":{
+      "image":"zoeira:textures/gui/background.png"
+    }
+  }
+}
