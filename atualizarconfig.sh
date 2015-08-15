@@ -6,31 +6,32 @@
     echo "===================================================="
     echo "Pasta alterada para /var/www/solder/public/mods/"
 
-    if [ -d options ]; then
-        rm options -r
-        echo ""
-        echo "Pasta antiga removida com sucesso."
-    else
-        echo ""
-        echo "Pasta options não existe, ignorando."
-    fi
 
-
-    git clone https://github.com/Misterio77/ModpackConfig.git options
+    git clone https://github.com/Misterio77/ModpackConfig.git optionscloned
     echo ""
     echo ""
     echo "====="
     echo "Repositório de configs clonado com sucesso!"
 
-    cd options
+    cd optionscloned
     echo ""
-    echo "Pasta alterada para /var/www/solder/public/mods/options"
+    echo "Pasta alterada para /var/www/solder/public/mods/optionscloned"
 
     echo "Versão desejada para options zip?"
     echo -n "> "
     read versao
 
-    zip options-$versao.zip * -r -m
+    ls ../options/options
+    zip ../options/options-$versao.zip * -r -m
+    cd ../options/
+    if [ -d optionscloned ]; then
+        rm options -r
+        echo ""
+        echo "Pasta clonada removida com sucesso."
+    else
+        echo ""
+        echo "Pasta optionscloned não existe, ignorando."
+    fi
     echo ""
     echo ""
     echo ""
