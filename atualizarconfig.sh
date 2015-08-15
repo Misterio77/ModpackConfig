@@ -12,6 +12,7 @@
         echo "Pasta clonada antiga removida com sucesso."
     else
         echo ""
+    fi
 
 
     git clone https://github.com/Misterio77/ModpackConfig.git optionscloned
