@@ -7,14 +7,13 @@
     echo "Pasta alterada para /var/www/solder/public/mods/"
 
     if [ -d optionscloned ]; then
-        rm options -r
+        rm optionscloned -r
         echo ""
         echo "Pasta clonada antiga removida com sucesso."
     else
         echo ""
+
     fi
-
-
     git clone https://github.com/Misterio77/ModpackConfig.git optionscloned
     echo ""
     echo ""
@@ -27,7 +26,7 @@
 
     echo ""
     echo "Lista de options.zip existentes:"
-    ls ../options/options
+    ls ../options
     echo "Versão desejada para options zip?"
     echo ""
     echo -n "> "
@@ -35,9 +34,9 @@
 
 
     zip ../options/options-$versao.zip * -r -m
-    cd ../options/
+    cd ../
     if [ -d optionscloned ]; then
-        rm options -r
+        rm optionscloned -r
         echo ""
         echo "Pasta clonada removida com sucesso."
     else
@@ -47,6 +46,8 @@
     echo ""
     echo ""
     echo ""
+    cd options
     echo "====="
     echo ""
     echo "Pastas zipadas e prontas para uso no solder!"
+
