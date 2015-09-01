@@ -1,0 +1,9 @@
+TConstruct:hatchet,1,0,{InfiTool:{Unbreaking:0,Damage:0,HarvestLevel:1,Head:3,BaseDurability:171,Modifiers:3,RenderHead:3,Handle:0,BaseAttack:3,Shoddy:0.0f,RenderHandle:0,Attack:3,MiningSpeed:525,ModDurability:0.0f,BonusDurability:0,Broken:0b,TotalDurability:171},display:{Name:"§eMachado do Iniciante"}}
+TConstruct:pickaxe,1,0,{InfiTool:{Unbreaking:0,Damage:0,HarvestLevel:1,Head:3,BaseDurability:171,Accessory:1,Modifiers:3,RenderHead:3,BaseAttack:2,Handle:0,RenderHandle:0,Shoddy:0.33333334f,Attack:2,MiningSpeed:525,ModDurability:0.0f,Broken:0b,BonusDurability:0,TotalDurability:171,RenderAccessory:1},display:{Name:"§ePicareta do Iniciante"}}
+HardcoreQuesting:quest_book,1,0
+minecraft:flint,4,0
+Backpack:backpack,1,0
+minecraft:bed,1,0
+minecraft:cooked_fished,10,1
+Botania:lexicon,1,0,{}
+Thaumcraft:ItemThaumonomicon,1,0
