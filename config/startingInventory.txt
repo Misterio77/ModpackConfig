@@ -7,4 +7,3 @@ chisel:chisel,1,0
 minecraft:bed,1,0
 Botania:lexicon,1,0,{}
 Thaumcraft:ItemThaumonomicon,1,0
-minecraft:egg,1,0
