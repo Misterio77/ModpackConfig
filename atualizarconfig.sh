@@ -27,8 +27,9 @@
     echo ""
     echo "Lista de options.zip existentes:"
     ls ../options
-    echo "Versão desejada para options zip?"
+    echo "====="
     echo ""
+    echo "Versão desejada para options zip?"
     echo -n "> "
     read versao
 
@@ -50,4 +51,3 @@
     echo "====="
     echo ""
     echo "Pastas zipadas e prontas para uso no solder!"
-
