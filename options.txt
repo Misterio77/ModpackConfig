@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.5
-fov:1.0
-gamma:1.0
+fov:0.0
+gamma:0.0
 saturation:0.0
 renderDistance:6
 guiScale:2
@@ -12,7 +12,7 @@ advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:[]
@@ -62,7 +62,7 @@ key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.drop:16
-key_key.inventory:44
+key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98
@@ -86,8 +86,7 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.personalBackpack:48
-key_Tool Increase:201
-key_Tool Decrease:209
+key_HoloInventory:0
 key_simplyjetpacks.keybind.toggle.primary:23
 key_simplyjetpacks.keybind.toggle.secondary:0
 key_simplyjetpacks.keybind.mode.primary:21
@@ -107,7 +106,7 @@ key_key.tarmor:0
 key_key.tgoggles:0
 key_key.tbelt:0
 key_key.tzoom:0
-key_Speak:47
+key_Speak:0
 key_Gliby's Options Menu:52
 key_invtweaks.key.sort:27
 key_Open MPS Keybind GUI:82
@@ -116,17 +115,24 @@ key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Zoom (MPS):0
 key_Cosmetic (MPS):0
+key_Armor Effects:33
+key_Charge:47
+key_Extra Function:45
+key_Fire Projectile:19
+key_Change Mode:34
 key_key.craftingGrid:46
-key_TG.keybind.openInv:18
-key_TG.keybind.activeaAbilities:19
+key_TG.keybind.openInv:44
+key_TG.keybind.activeaAbilities:0
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_key.control:0
-key_key.minimap.voxelmapmenu:55
-key_key.minimap.waypointhotkey:181
-key_key.minimap.zoom:78
-key_key.minimap.togglefullscreen:74
-key_key.minimap.togglemobs:0
+key_key.journeymap.map_toggle:55
+key_key.journeymap.zoom_in:78
+key_key.journeymap.zoom_out:74
+key_key.journeymap.minimap_type:73
+key_key.journeymap.minimap_type:71
+key_key.journeymap.minimap_preset:72
+key_key.journeymap.create_waypoint:181
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:0.09154929

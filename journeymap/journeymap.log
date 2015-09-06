@@ -1,0 +1,53 @@
+[12:46:13] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[12:46:13] [Client thread/INFO] [JourneyMap] ensureCurrent ENTER
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.core.config
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.fullmap.config
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.minimap.config
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.minimap2.config
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.webmap.config
+[12:46:14] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/config/5.1/journeymap.waypoint.config
+[12:46:14] [Client thread/INFO] [?] Version: JourneyMap 5.1.0 Unlimited, built with Forge 10.13.2.1291
+Forge: 10.13.4.1492
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=1, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=2, enabled=true, frameAlpha=100, name=minimap, orientation=My Heading, position=Top Right, preferredMapType=day, reticleOrientation=My Heading, shape=Circle, showBiome=true, showCompass=true, showFps=false, showLocation=false, showReticle=true, sizePercent=27, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Rectangle, position=Center, showFps=false, showBiome=true, showLocation=false, showWaypointLabels=true, sizePercent=50, frameAlpha=100, terrainAlpha=80, orientation=North, compassFontScale=2, showCompass=true, showReticle=true, reticleOrientation=Compass, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=2, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, checkUpdates=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=5.1.0, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=6, revealShape=Circle, themeName=Victorian, tileRenderType=2}
+[12:46:14] [Client thread/INFO] [JourneyMap] ensureCurrent EXIT, elapsed§8 count §r1§8 avg §r456.09§8ms§r
+[12:46:22] [Client thread/INFO] [JourneyMap] postInitialize ENTER
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[12:46:22] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[12:46:22] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler for: 'CarpentersBlocks:blockCarpentersBlock, CarpentersBlocks:blockCarpentersBarrier, CarpentersBlocks:blockCarpentersBed, CarpentersBlocks:blockCarpentersCollapsibleBlock, CarpentersBlocks:blockCarpentersDaylightSensor, CarpentersBlocks:blockCarpentersDoor, CarpentersBlocks:blockCarpentersFlowerPot, CarpentersBlocks:blockCarpentersGarageDoor, CarpentersBlocks:blockCarpentersGate, CarpentersBlocks:blockCarpentersHatch, CarpentersBlocks:blockCarpentersPressurePlate, CarpentersBlocks:blockCarpentersSafe, CarpentersBlocks:blockCarpentersSlope, CarpentersBlocks:blockCarpentersStairs'.
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[12:46:22] [Client thread/DEBUG] [EventHandlerManager] net.techbrew.journeymap.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[12:46:22] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[12:46:23] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[12:46:23] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[12:46:23] [Client thread/INFO] [JourneyMap] postInitialize EXIT, elapsed§8 count §r1§8 avg §r572.53§8ms§r
+[12:47:40] [Client thread/INFO] [WaypointStore] Loaded 2 waypoints from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/waypoints
+[12:47:41] [Client thread/INFO] [ColorCache] Getting color palette for Resource Pack(s): Default
+[12:47:41] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[12:47:42] [Client thread/INFO] [ColorCache] Existing color palette loaded 27328 colors in 314ms from file: /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/colorpalette.json
+[12:47:42] [Client thread/INFO] [JourneyMap] Mapping started in /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/DIM0. Memory: 1075MB total, 312MB free 
+[12:47:42] [JM-VersionCheck-4/INFO] [VersionCheck$1] Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
+[12:47:42] [Client thread/INFO] [ChatLog] JourneyMap: Press [MULTIPLY]
+[12:47:45] [JM-VersionCheck-4/INFO] [VersionCheck$1] Current version online: JourneyMap 5.1.0 for Minecraft 1.7.10 on http://journeymap.info/download
+[12:47:52] [Client thread/ERROR] [ChatLog] JourneyMap: High Display Quality: Off
+[12:47:53] [Client thread/ERROR] [ChatLog] JourneyMap: Map Tile Render Type: 3 (GL_LINEAR, GL_CLAMP_TO_EDGE)
+[12:47:53] [Client thread/ERROR] [ChatLog] JourneyMap: Map Tile Render Type: 4 (GL_NEAREST, GL_MIRRORED_REPEAT)
+[12:49:19] [Server thread/INFO] [JourneyMap] Mapping halted in /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/DIM0
+[12:49:19] [Client thread/INFO] [WaypointStore] Loaded 2 waypoints from /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/waypoints
+[12:49:19] [Client thread/INFO] [JourneyMap] Mapping started in /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/DIM0. Memory: 1237MB total, 495MB free 
+[12:52:00] [Client thread/INFO] [JourneyMap] Mapping halted in /home/misterio7/.technic/modpacks/the-profetas-of-zoeira/journeymap/data/sp/New World/DIM0

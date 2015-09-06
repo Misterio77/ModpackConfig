@@ -1,5 +1,5 @@
 bloodSplatters=false,0
-compass=true,0
+compass=false,0
 coordinates=true,2
 enchantIndicator=true,0
 armorBars=true,5
