@@ -1,9 +1,9 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:1.0
-gamma:1.0
+gamma:0.0
 saturation:0.0
-renderDistance:16
+renderDistance:7
 guiScale:2
 particles:0
 bobView:true
@@ -12,8 +12,8 @@ advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:0
-fancyGraphics:false
-ao:1
+fancyGraphics:true
+ao:2
 clouds:true
 resourcePacks:[]
 lastServer:mc.fiercelands.com
@@ -130,7 +130,7 @@ key_key.control:0
 key_key.journeymap.map_toggle:55
 key_key.journeymap.zoom_in:78
 key_key.journeymap.zoom_out:74
-key_key.journeymap.minimap_type:73
+key_key.journeymap.minimap_type:71
 key_key.journeymap.minimap_type:71
 key_key.journeymap.minimap_preset:72
 key_key.journeymap.create_waypoint:181
