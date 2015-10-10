@@ -1,9 +1,9 @@
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.0
-gamma:0.0
+fov:1.0
+gamma:1.0
 saturation:0.0
-renderDistance:6
+renderDistance:16
 guiScale:2
 particles:0
 bobView:true
@@ -11,9 +11,9 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:2
-fancyGraphics:true
-ao:2
+difficulty:0
+fancyGraphics:false
+ao:1
 clouds:true
 resourcePacks:[]
 lastServer:mc.fiercelands.com
@@ -86,8 +86,7 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.personalBackpack:48
-key_HoloInventory:0
-key_simplyjetpacks.keybind.toggle.primary:23
+key_simplyjetpacks.keybind.toggle.primary:0
 key_simplyjetpacks.keybind.toggle.secondary:0
 key_simplyjetpacks.keybind.mode.primary:21
 key_simplyjetpacks.keybind.mode.secondary:0
@@ -106,25 +105,27 @@ key_key.tarmor:0
 key_key.tgoggles:0
 key_key.tbelt:0
 key_key.tzoom:0
-key_Speak:0
-key_Gliby's Options Menu:52
 key_invtweaks.key.sort:27
 key_Open MPS Keybind GUI:82
-key_Go Down (MPS Flight Control):83
+key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Zoom (MPS):0
 key_Cosmetic (MPS):0
-key_Armor Effects:33
+key_Armor Effects:50
 key_Charge:47
 key_Extra Function:45
 key_Fire Projectile:19
-key_Change Mode:34
+key_Change Mode:49
+key_ShoulderSurfing.key.cameraMoveLeft:36
+key_ShoulderSurfing.key.cameraMoveRight:38
+key_ShoulderSurfing.key.cameraMoveCloser:23
+key_ShoulderSurfing.key.cameraMoveFarther:37
 key_key.craftingGrid:46
-key_TG.keybind.openInv:44
+key_TG.keybind.openInv:56
 key_TG.keybind.activeaAbilities:0
 key_key.cofh.empower:47
-key_key.cofh.multimode:46
+key_key.cofh.multimode:49
 key_key.control:0
 key_key.journeymap.map_toggle:55
 key_key.journeymap.zoom_in:78
@@ -133,8 +134,8 @@ key_key.journeymap.minimap_type:73
 key_key.journeymap.minimap_type:71
 key_key.journeymap.minimap_preset:72
 key_key.journeymap.create_waypoint:181
-soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_master:0.40397352
+soundCategory_music:1.0
 soundCategory_record:0.09154929
 soundCategory_weather:1.0
 soundCategory_block:1.0
