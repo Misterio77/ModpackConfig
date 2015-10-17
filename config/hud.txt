@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2015-10-15 12:26:58.207
+# 2015-10-16 19:19:58.997
 armorBars:
 	enabled:true
 	posMode:0
@@ -30,7 +30,7 @@ biome:
 	green:255.0
 	blue:255.0
 blockViewer:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:topCenter
 	position2:5,5
