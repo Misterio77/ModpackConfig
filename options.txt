@@ -4,7 +4,7 @@ fov:0.0
 gamma:0.0
 saturation:0.0
 renderDistance:8
-guiScale:0
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -105,6 +105,9 @@ key_key.tarmor:0
 key_key.tgoggles:0
 key_key.tbelt:0
 key_key.tzoom:0
+key_[GC] Galaxy Map:36
+key_[GC] Open Spaceship Inventory:35
+key_[GC] Toggle Sensor Goggles Mode:37
 key_Speak:56
 key_Gliby's Options Menu:52
 key_invtweaks.key.sort:27
@@ -133,12 +136,12 @@ key_key.control:0
 key_key.journeymap.map_toggle:55
 key_key.journeymap.zoom_in:78
 key_key.journeymap.zoom_out:74
-key_key.journeymap.minimap_type:71
+key_key.journeymap.minimap_type:73
 key_key.journeymap.minimap_type:73
 key_key.journeymap.minimap_preset:72
 key_key.journeymap.create_waypoint:181
 soundCategory_master:1.0
-soundCategory_music:0.5
+soundCategory_music:0.5070422
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

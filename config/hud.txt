@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2015-10-15 12:26:58.207
+# 2015-10-17 19:55:32.283
 armorBars:
 	enabled:true
 	posMode:0
