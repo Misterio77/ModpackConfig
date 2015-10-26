@@ -108,8 +108,6 @@ key_key.tzoom:0
 key_[GC] Galaxy Map:36
 key_[GC] Open Spaceship Inventory:35
 key_[GC] Toggle Sensor Goggles Mode:37
-key_Speak:56
-key_Gliby's Options Menu:52
 key_invtweaks.key.sort:27
 key_Open MPS Keybind GUI:82
 key_Go Down (MPS Flight Control):44
@@ -130,13 +128,15 @@ key_ShoulderSurfing.key.cameraMoveCloser:200
 key_ShoulderSurfing.key.cameraMoveFarther:208
 key_ttmisc.toggleArmor:38
 key_key.craftingGrid:46
+key_TG.keybind.openInv:56
+key_TG.keybind.activeaAbilities:0
 key_key.cofh.empower:47
 key_key.cofh.multimode:49
 key_key.control:0
 key_key.journeymap.map_toggle:55
 key_key.journeymap.zoom_in:78
 key_key.journeymap.zoom_out:74
-key_key.journeymap.minimap_type:73
+key_key.journeymap.minimap_type:71
 key_key.journeymap.minimap_type:73
 key_key.journeymap.minimap_preset:72
 key_key.journeymap.create_waypoint:181
