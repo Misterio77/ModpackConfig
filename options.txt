@@ -66,7 +66,7 @@ key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98
-key_key.command:53
+key_key.command:0
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
@@ -97,25 +97,25 @@ key_Change Wand Focus:33
 key_Activate Hover Harness:39
 key_Misc Wand Toggle:34
 key_waila.keybind.wailaconfig:211
-key_waila.keybind.wailadisplay:0
-key_waila.keybind.liquid:0
-key_waila.keybind.recipe:0
-key_waila.keybind.usage:0
-key_key.tarmor:0
-key_key.tgoggles:0
-key_key.tbelt:0
-key_key.tzoom:0
+key_waila.keybind.wailadisplay:80
+key_waila.keybind.liquid:75
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:79
+key_key.tarmor:77
+key_key.tgoggles:53
+key_key.tbelt:51
+key_key.tzoom:52
 key_[GC] Galaxy Map:36
 key_[GC] Open Spaceship Inventory:35
 key_[GC] Toggle Sensor Goggles Mode:37
 key_invtweaks.key.sort:27
 key_Open MPS Keybind GUI:82
 key_Go Down (MPS Flight Control):44
-key_Cycle Tool Backward (MPS):0
-key_Cycle Tool Forward (MPS):0
-key_Zoom (MPS):0
-key_Cosmetic (MPS):0
-key_key.materialCosts:0
+key_Cycle Tool Backward (MPS):-1
+key_Cycle Tool Forward (MPS):-1
+key_Zoom (MPS):21
+key_Cosmetic (MPS):-1
+key_key.materialCosts:157
 key_key.clipboardPaste:26
 key_Armor Effects:50
 key_Charge:47
@@ -129,7 +129,7 @@ key_ShoulderSurfing.key.cameraMoveFarther:208
 key_ttmisc.toggleArmor:38
 key_key.craftingGrid:46
 key_TG.keybind.openInv:56
-key_TG.keybind.activeaAbilities:0
+key_TG.keybind.activeaAbilities:76
 key_key.cofh.empower:47
 key_key.cofh.multimode:49
 key_key.control:0
