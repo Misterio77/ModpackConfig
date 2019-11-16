@@ -12,59 +12,19 @@
       "image":"zoeira:textures/gui/Logo.png",
       "alignment":"top_left",
       "posX":58 ,
-      "posY":-5,
+      "posY":5,
       "width":85,
       "height":85
     }
   },
   "buttons":{
-    "opcoes":{
-      "text":"",
-      "tooltip":"OpÃ§Ãµes",
-      "alignment":"left_center",
-      "texture":"zoeira:textures/gui/settings.png",
-      "posX":91,
-      "posY":20,
-      "width":20,
-      "height":20,
-      "action":{
-        "type":"openGui",
-        "gui":"options"
-      }
-    },
-    "refresh":{
-      "text":"",
-      "tooltip":"Atualizar Menu",
-      "alignment":"left_center",
-      "texture":"zoeira:textures/gui/refresh.png",
-      "posX":67,
-      "posY":20,
-      "width":20,
-      "height":20,
-      "action":{
-        "type":"refresh"
-      }
-    },
-    "sair":{
-      "text":"",
-      "tooltip":"Sair do Jogo",
-      "alignment":"left_center",
-      "texture":"zoeira:textures/gui/quit.png",
-      "posX":115,
-      "posY":20,
-      "width":20,
-      "height":20,
-      "action":{
-        "type":"quit"
-      }
-    },
     "criar":{
       "text":"Novo",
-      "tooltip":"ComeÃ§e uma nova aventura!",
+      "tooltip":"Comece uma nova aventura!",
       "alignment":"left_center",
       "texture":"zoeira:textures/gui/botao.png",
       "posX":50,
-      "posY":-50,
+      "posY":-30,
       "width":102,
       "height":20,
       "action":{
@@ -78,7 +38,7 @@
       "alignment":"left_center",
       "texture":"zoeira:textures/gui/botao.png",
       "posX":50,
-      "posY":-30,
+      "posY":-10,
       "width":102,
       "height":20,
       "action":{
@@ -92,40 +52,39 @@
       "alignment":"left_center",
       "texture":"zoeira:textures/gui/botao.png",
       "posX":50,
-      "posY":-10,
+      "posY":10,
       "width":102,
       "height":20,
       "action":{
         "type":"connectToServer",
-        "ip":"mc.profetasofzoeira.tk"
+        "ip":"mc.misterio.me"
       }
     },
-    "creditos":{
-      "text":"CrÃ©ditos",
-      "posX":50,
-      "posY":50,
+    "opcoes":{
+      "text":"Opções",
+      "tooltip":"Configurações do jogo",
       "alignment":"left_center",
       "texture":"zoeira:textures/gui/botao.png",
-      "tooltip":"Quem fez essa budega?",
+      "posX":50,
+      "posY":40,
       "width":102,
       "height":20,
       "action":{
         "type":"openGui",
-        "gui":"custom.creditos"
+        "gui":"options"
       }
     },
-    "site":{
-      "text":"Nosso site",
-      "posX":50,
-      "posY":70,
+    "sair":{
+      "text":"Sair",
+      "tooltip":"Sair do Jogo",
       "alignment":"left_center",
       "texture":"zoeira:textures/gui/botao.png",
-      "tooltip":"Visite nosso site!",
+      "posX":50,
+      "posY":80,
       "width":102,
       "height":20,
       "action":{
-        "type":"openLink",
-        "link":"https://profetasofzoeira.tk"
+        "type":"quit"
       }
     },
     "mods":{
@@ -134,7 +93,7 @@
       "texture":"zoeira:textures/gui/botao.png",
       "tooltip":"#modsloaded# Mods no pack!",
       "posX":50,
-      "posY":90,
+      "posY":60,
       "width":102,
       "height":20,
       "action":{

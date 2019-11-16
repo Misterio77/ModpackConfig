@@ -1,22 +1,22 @@
 {
-  "activate_map_gen_fix": {
+  "hook_pre_world_rendering": {
     "version": 0,
     "value": "true",
     "comment": [
-      "Purpose: fix bug in vanilla code used to find nearby structures",
-      "Modified class: net.minecraft.world.gen.structure.MapGenStructure",
-      "Known users: OpenBlocks golden eye",
-      "When disabled: features may not work (either silently fail or cause crash)"
+      "Purpose: hook in world rendering, triggered between sky and terrain",
+      "Modified class: net.minecraft.client.renderer.EntityRenderer",
+      "Known users: Sky block",
+      "When disabled: Sky block will not render properly"
     ]
   },
-  "activate_movement_callback": {
+  "llama_null_fix": {
     "version": 0,
     "value": "true",
     "comment": [
-      "Purpose: this transformer add hook to player movement controls",
-      "Modified class: net.minecraft.client.entity.EntityPlayerSP",
-      "Known users: OpenBlocks elevator",
-      "When disabled: users usually have fallbacks (elevator will use less accurate algorithm)"
+      "Purpose: prevent NPE when creating llama without world",
+      "Modified class: net.minecraft.entity.passive.EntityLlama",
+      "Known users: Trophy",
+      "When disabled: Llama trophy cannot be rendered"
     ]
   },
   "activate_player_render_hook": {
@@ -29,24 +29,24 @@
       "When disabled: code may fallback to less compatible mechanism (like replacing renderer)"
     ]
   },
-  "activate_gl_capabilities_hook": {
+  "horse_base_null_fix": {
     "version": 0,
     "value": "true",
     "comment": [
-      "Purpose: hook to get check additional OpenGL capabilities (mostly stencil buffer related)",
-      "Modified class: net.minecraft.client.renderer.OpenGlHelper",
-      "Known users: OpenBlocks skyblocks",
-      "When disabled: no stencil buffer available unless unlocked with Forge flag. Mods may not use some graphic features"
+      "Purpose: prevent NPE when creating horse without world",
+      "Modified class: net.minecraft.entity.passive.AbstractHorse",
+      "Known users: Trophy",
+      "When disabled: Trophy for any horse variant cannot be rendered"
     ]
   },
-  "activate_stencil_patches": {
+  "horse_null_fix": {
     "version": 0,
     "value": "true",
     "comment": [
-      "Purpose: to re-enable stencil buffer on FBO objects. This is was disabled due to problems on some configurations",
-      "Modified class: net.minecraft.client.shader.Framebuffer",
-      "Known users: OpenBlocks skyblocks",
-      "When disabled: no stencil buffer available unless unlocked with Forge flag. Mods may not use some graphic features"
+      "Purpose: prevent NPE when creating horse without world",
+      "Modified class: net.minecraft.entity.passive.EntityHorse",
+      "Known users: Trophy",
+      "When disabled: Horse trophy cannot be rendered"
     ]
   }
 }

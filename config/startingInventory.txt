@@ -1,9 +1,0 @@
-TConstruct:hatchet,1,0,{InfiTool:{BaseDurability:171,Head:3,BaseAttack:3,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:525,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:171},display:{Name:"§eMachado do Iniciante"}}
-TConstruct:pickaxe,1,0,{InfiTool:{BaseDurability:171,Head:3,BaseAttack:2,HarvestLevel:1,Attack:2,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.33333334f,RenderHandle:0,Accessory:1,MiningSpeed:525,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:171},display:{Name:"§ePicareta do Iniciante"}}
-minecraft:cooked_fished,10,1
-chisel:chisel,1,0
-minecraft:bed,1,0
-Botania:lexicon,1,0,{}
-Thaumcraft:ItemThaumonomicon,1,0
-TConstruct:manualBook,1,0
-OpenComputers:item,1,98
