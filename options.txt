@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
@@ -89,6 +89,15 @@ key_of.key.zoom:0
 key_Change Caster Focus:34
 key_Misc Caster Toggle:35
 key_keybind.baublesinventory:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
+key_quark.keybind.toggleAutojump:52
 key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -108,28 +117,19 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
-key_quark.keybind.toggleAutojump:52
 key_key.betterfoliage.gui:66
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
+key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_next:0
 key_roots.keybinds.spell_slot_2:0
 key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_5:0
 key_roots.keybinds.spell_slot_previous:0
-key_roots.keybinds.spell_slot_3:0
-key_roots.keybinds.spell_slot_next:0
+key_roots.keybinds.spell_slot_5:0
 key_psimisc.keybind:46
 key_rpsideas.kb.offhandcast:19
 key_rpsideas.kb.switchslot01:0
@@ -163,6 +163,11 @@ key_pe.key.charge:0
 key_pe.key.extra_function:0
 key_pe.key.fire_projectile:0
 key_pe.key.mode:0
+key_Camera left:203
+key_Camera right:205
+key_Camera closer:200
+key_Camera farther:208
+key_Swap shoulder:24
 key_key.pearl_swapping.desc:0
 key_key.dismount:42
 key_key.narrator:0
