@@ -53,11 +53,25 @@
       "texture":"zoeira:textures/gui/botao.png",
       "posX":50,
       "posY":10,
-      "width":102,
+      "width":82,
       "height":20,
       "action":{
         "type":"connectToServer",
         "ip":"mc.misterio.me"
+      }
+    },
+    "conectar":{
+      "text":"...",
+      "tooltip":"Conecte-se a outro servidor",
+      "alignment":"left_center",
+      "texture":"zoeira:textures/gui/botao.png",
+      "posX":132,
+      "posY":10,
+      "width":20,
+      "height":20,
+      "action":{
+        "type":"openGui",
+        "gui":"multiplayer"
       }
     },
     "opcoes":{
