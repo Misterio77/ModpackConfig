@@ -132,7 +132,7 @@ key_controlEnergy.name:0:NONE
 key_controlPotential.name:0:NONE
 key_controlStability.name:0:NONE
 key_controlVoid.name:0:NONE
-key_nei.options.keys.gui.botania_corporea_request:20:SHIFT
+key_nei.options.keys.gui.botania_corporea_request:46
 key_key.carry.desc:42:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
